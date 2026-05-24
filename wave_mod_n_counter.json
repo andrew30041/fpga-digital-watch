@@ -1,0 +1,69 @@
+{
+  "extensionVersion": "1.5.3",
+  "fileName": "/workspace/wave_mod_n_counter.vcd",
+  "markerTime": null,
+  "altMarkerTime": null,
+  "displayTimeUnit": "ps",
+  "selectedSignal": {
+    "name": "wave_mod_n_counter.rst",
+    "msb": -1,
+    "lsb": -1
+  },
+  "zoomRatio": 0.0040036063449130814,
+  "scrollLeft": 0,
+  "defaultPixelTime": 100000,
+  "displayedSignals": [
+    {
+      "dataType": "netlist-variable",
+      "netlistId": 1,
+      "name": "wave_mod_n_counter.clk",
+      "numberFormat": "binary",
+      "colorIndex": 0,
+      "rowHeight": 1,
+      "verticalScale": 1,
+      "nameType": "fullPath",
+      "customName": "clk",
+      "renderType": "binary",
+      "valueLinkEnable": false
+    },
+    {
+      "dataType": "netlist-variable",
+      "netlistId": 0,
+      "name": "wave_mod_n_counter.count",
+      "numberFormat": "hexadecimal",
+      "colorIndex": 0,
+      "rowHeight": 1,
+      "verticalScale": 1,
+      "nameType": "fullPath",
+      "customName": "count",
+      "renderType": "multiBit",
+      "valueLinkEnable": false
+    },
+    {
+      "dataType": "netlist-variable",
+      "netlistId": 2,
+      "name": "wave_mod_n_counter.enable",
+      "numberFormat": "binary",
+      "colorIndex": 0,
+      "rowHeight": 1,
+      "verticalScale": 1,
+      "nameType": "fullPath",
+      "customName": "enable",
+      "renderType": "binary",
+      "valueLinkEnable": false
+    },
+    {
+      "dataType": "netlist-variable",
+      "netlistId": 3,
+      "name": "wave_mod_n_counter.rst",
+      "numberFormat": "binary",
+      "colorIndex": 0,
+      "rowHeight": 1,
+      "verticalScale": 1,
+      "nameType": "fullPath",
+      "customName": "rst",
+      "renderType": "binary",
+      "valueLinkEnable": false
+    }
+  ]
+}
