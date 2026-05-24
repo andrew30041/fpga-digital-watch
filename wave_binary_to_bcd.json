@@ -1,0 +1,56 @@
+{
+  "extensionVersion": "1.5.3",
+  "fileName": "/workspace/wave_binary_to_bcd.vcd",
+  "markerTime": null,
+  "altMarkerTime": null,
+  "displayTimeUnit": "ps",
+  "selectedSignal": {
+    "name": "wave_binary_to_bcd.tens",
+    "msb": 3,
+    "lsb": 0
+  },
+  "zoomRatio": 0.012179965200099428,
+  "scrollLeft": 0,
+  "defaultPixelTime": 100000,
+  "displayedSignals": [
+    {
+      "dataType": "netlist-variable",
+      "netlistId": 2,
+      "name": "wave_binary_to_bcd.bin",
+      "numberFormat": "hexadecimal",
+      "colorIndex": 0,
+      "rowHeight": 1,
+      "verticalScale": 1,
+      "nameType": "fullPath",
+      "customName": "bin",
+      "renderType": "multiBit",
+      "valueLinkEnable": false
+    },
+    {
+      "dataType": "netlist-variable",
+      "netlistId": 1,
+      "name": "wave_binary_to_bcd.ones",
+      "numberFormat": "hexadecimal",
+      "colorIndex": 0,
+      "rowHeight": 1,
+      "verticalScale": 1,
+      "nameType": "fullPath",
+      "customName": "ones",
+      "renderType": "multiBit",
+      "valueLinkEnable": false
+    },
+    {
+      "dataType": "netlist-variable",
+      "netlistId": 0,
+      "name": "wave_binary_to_bcd.tens",
+      "numberFormat": "hexadecimal",
+      "colorIndex": 0,
+      "rowHeight": 1,
+      "verticalScale": 1,
+      "nameType": "fullPath",
+      "customName": "tens",
+      "renderType": "multiBit",
+      "valueLinkEnable": false
+    }
+  ]
+}
