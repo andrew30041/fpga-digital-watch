@@ -1,0 +1,56 @@
+{
+  "extensionVersion": "1.5.3",
+  "fileName": "/workspace/wave_restartable_rate_generator.vcd",
+  "markerTime": null,
+  "altMarkerTime": null,
+  "displayTimeUnit": "ps",
+  "selectedSignal": {
+    "name": "wave_restartable_rate_generator.tick",
+    "msb": -1,
+    "lsb": -1
+  },
+  "zoomRatio": 0.025164059963465706,
+  "scrollLeft": 0,
+  "defaultPixelTime": 100000,
+  "displayedSignals": [
+    {
+      "dataType": "netlist-variable",
+      "netlistId": 1,
+      "name": "wave_restartable_rate_generator.clk",
+      "numberFormat": "binary",
+      "colorIndex": 0,
+      "rowHeight": 1,
+      "verticalScale": 1,
+      "nameType": "fullPath",
+      "customName": "clk",
+      "renderType": "binary",
+      "valueLinkEnable": false
+    },
+    {
+      "dataType": "netlist-variable",
+      "netlistId": 2,
+      "name": "wave_restartable_rate_generator.run",
+      "numberFormat": "binary",
+      "colorIndex": 0,
+      "rowHeight": 1,
+      "verticalScale": 1,
+      "nameType": "fullPath",
+      "customName": "run",
+      "renderType": "binary",
+      "valueLinkEnable": false
+    },
+    {
+      "dataType": "netlist-variable",
+      "netlistId": 0,
+      "name": "wave_restartable_rate_generator.tick",
+      "numberFormat": "binary",
+      "colorIndex": 0,
+      "rowHeight": 1,
+      "verticalScale": 1,
+      "nameType": "fullPath",
+      "customName": "tick",
+      "renderType": "binary",
+      "valueLinkEnable": false
+    }
+  ]
+}

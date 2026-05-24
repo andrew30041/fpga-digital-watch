@@ -16,8 +16,8 @@ module wave_tb_restartable_rate_generator_cycle1;
   always #5 clk = ~clk;
 
   initial begin
-    $dumpfile("wave_rrg_cycle1.vcd");
-    $dumpvars(0, tb_restartable_rate_generator_cycle1);
+    $dumpfile("wave_tb_restartable_rate_generator_cycle1.vcd");
+    $dumpvars(0, wave_tb_restartable_rate_generator_cycle1);
 
     // run low — tick should be low
     run = 0;
