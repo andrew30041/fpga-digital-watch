@@ -1,0 +1,82 @@
+{
+  "extensionVersion": "1.5.3",
+  "fileName": "/workspace/wave_hms_counter.vcd",
+  "markerTime": null,
+  "altMarkerTime": null,
+  "displayTimeUnit": "ps",
+  "selectedSignal": {
+    "name": "wave_hms_counter.seconds",
+    "msb": 2,
+    "lsb": 0
+  },
+  "zoomRatio": 0.0022737455197132618,
+  "scrollLeft": 0,
+  "defaultPixelTime": 1000000,
+  "displayedSignals": [
+    {
+      "dataType": "netlist-variable",
+      "netlistId": 3,
+      "name": "wave_hms_counter.clk",
+      "numberFormat": "binary",
+      "colorIndex": 0,
+      "rowHeight": 1,
+      "verticalScale": 1,
+      "nameType": "fullPath",
+      "customName": "clk",
+      "renderType": "binary",
+      "valueLinkEnable": false
+    },
+    {
+      "dataType": "netlist-variable",
+      "netlistId": 4,
+      "name": "wave_hms_counter.enable",
+      "numberFormat": "binary",
+      "colorIndex": 0,
+      "rowHeight": 1,
+      "verticalScale": 1,
+      "nameType": "fullPath",
+      "customName": "enable",
+      "renderType": "binary",
+      "valueLinkEnable": false
+    },
+    {
+      "dataType": "netlist-variable",
+      "netlistId": 2,
+      "name": "wave_hms_counter.hours",
+      "numberFormat": "hexadecimal",
+      "colorIndex": 0,
+      "rowHeight": 1,
+      "verticalScale": 1,
+      "nameType": "fullPath",
+      "customName": "hours",
+      "renderType": "multiBit",
+      "valueLinkEnable": false
+    },
+    {
+      "dataType": "netlist-variable",
+      "netlistId": 1,
+      "name": "wave_hms_counter.minutes",
+      "numberFormat": "hexadecimal",
+      "colorIndex": 0,
+      "rowHeight": 1,
+      "verticalScale": 1,
+      "nameType": "fullPath",
+      "customName": "minutes",
+      "renderType": "multiBit",
+      "valueLinkEnable": false
+    },
+    {
+      "dataType": "netlist-variable",
+      "netlistId": 0,
+      "name": "wave_hms_counter.seconds",
+      "numberFormat": "hexadecimal",
+      "colorIndex": 0,
+      "rowHeight": 1,
+      "verticalScale": 1,
+      "nameType": "fullPath",
+      "customName": "seconds",
+      "renderType": "multiBit",
+      "valueLinkEnable": false
+    }
+  ]
+}
