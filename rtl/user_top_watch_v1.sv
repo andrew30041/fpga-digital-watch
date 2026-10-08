@@ -1,6 +1,4 @@
 // ------------------------------------------------------------------
-// WARNING: This file is used by the automated test suite. Do not
-// modify it.
 //
 // This file also serves as a template for your own designs. To use
 // it:

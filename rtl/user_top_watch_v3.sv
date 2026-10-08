@@ -1,6 +1,4 @@
 // ------------------------------------------------------------------
-// WARNING: This file is used by the automated test suite. Do not
-// modify it.
 //
 // This file also serves as a template for your own designs. To use
 // it:
@@ -94,8 +92,8 @@ module user_top_watch_v3 #(
   assign seconds_edit = mode_enable == 3'b001;
   assign minutes_edit = mode_enable == 3'b010;
   assign hours_edit = mode_enable == 3'b100;
-  assign minutes_tick = seconds_disp == 7'd59 & seconds_tick;
-  assign hours_tick = minutes_disp == 7'd59 & minutes_tick;
+  assign minutes_tick = seconds_tick & !seconds_edit & (seconds == 6'd59);
+  assign hours_tick = minutes_tick & !minutes_edit & (minutes == 6'd59);
 
   assign hours_disp = {2'b0, hours};
   assign minutes_disp = {1'b0, minutes};
