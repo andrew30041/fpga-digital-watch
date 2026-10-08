@@ -56,7 +56,7 @@ module edit_mode_selector #(
   assign reset_counter = !armed;
 
   // Disarm in the press that steps past the last mode
-  assign disarm = (enable_counter && count == 2'd2) ? '1 : '0;
+  assign disarm = enable_counter && (count == 2'd2);
 
   // Output logic (in one-hot encoding)
   assign mode_enable = armed ? (3'b001 << count) : 3'b000;
